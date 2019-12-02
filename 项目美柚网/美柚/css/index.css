@@ -1,0 +1,274 @@
+.topnav{
+    width: 100%;
+    height:92px ;
+}
+.topnav-left{
+    float: left;
+    width: 130px;
+    height: 90px;
+}
+.topnav-left img{
+    height: 38px;
+    width: 38px;
+    margin-top: 25px;
+    float: left;
+}
+.topnav-left a{
+    font-size: 38px;
+    color: RGB(255,80,115);
+    margin-top: 23px;
+    margin-left: 11px;
+    float: left;
+}
+.topnav-right{
+    float: right;
+    width: 748px;
+    height: 92px;
+    background-color: #fff;
+    line-height: 92px;
+    font-size: 21px;
+}
+.topnav-right a{
+    color: RGB(50,50,50);
+    margin: 0 13px;
+}
+
+.topnav-right a:hover{
+    color: RGB(255,147,164);
+}
+.good{
+    background-color: RGB(238,238,238);
+}
+.beauty{
+    height: 48px;
+}
+.beauty img{
+    height: 22px;
+    width: 24px;
+    float: left;
+    margin-top: 12px;
+}
+.beauty span{
+    float: left;
+    margin-top: 18px;
+    margin-left:12px;
+}
+.more{
+    background-color: RGB(238,238,238);
+    height: 438px;
+    width: 100%;
+}
+.more-one,.more-two,.more-three{
+    float: left;
+    height:438px ;
+    width:398px ;
+    background-color: RGB(255,255,255);
+    margin-top: 13px;
+}
+/* .more-one{
+    padding-left: 20px;
+} */
+.more-one ul{
+  padding-left: 20px;
+}
+.more-three{
+    padding-left: 14px;
+}
+.more-one,.more-two{
+    border-right: 1px solid RGB(255,237,241);
+}
+.more-top{
+    height:35px ;
+}
+.more-top span,a{
+    color: RGB(255,146,164);
+}
+.more-top a{
+    font-size: 16px;
+    float: right;
+    margin-right: 40px;
+    /* margin-top: 40px; */
+    padding-top:13px ;
+    color:RGB(255,146,173) ;
+}
+.more-top span{
+    float: left;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+.more-bottom{
+    margin-top: 46px;
+}
+.more-bottom ul li a{
+    display: block;
+    width: 362PX;
+    color: RGB(50,50,50);
+    font-size: 17px;
+    line-height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.meiyou img{
+    height: 82px;
+    width: 82px;
+    float: left;
+    margin-left:80px;
+    margin-top:48px;
+}
+.contact dl{
+    float: left;
+    margin-top:105px;
+    margin-right:142px ;
+}
+.contact dt{
+    line-height: 55px;
+    color:RGB(255,80,155) ;
+    font-size: 20px;
+}
+.contact dd{
+    color: RGB(136,136,136);
+    font-size:17px;
+    line-height: 40px;
+}
+.contact dd:hover{
+     color: RGB(255,80,155);
+}
+.company-box{
+    text-align: center;
+    margin-top: 360px;
+    line-height: 30px;
+    color: RGB(136,136,136);
+    font-size: 14px;
+}
+.company p:hover{
+    color: RGB(255,80,155);
+}
+/* 2.html */
+.know img{
+   width: 100%;
+   height: 596px;
+}
+.women img{
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    top: 218px;
+    left: 400px;
+}
+h2{
+    position: absolute;
+    top: 126px;
+    left: 185px;
+    color: #fff;
+    font-size: 33px;
+    font-weight: 500;
+
+}
+.register{
+    position: absolute;
+    top: 123px;
+    left: 1125px;
+    height: 520px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.register h3{
+    height: 78px;
+    width: 100%;
+    text-align: center;
+    color: RGB(74,74,74);
+    font-size: 24px;
+    line-height: 78px;
+    font-weight: 500px;
+}
+input{
+    height: 40px;
+    width: 330px;
+    border:2px solid RGB(221,221,221);
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-left:80px;
+}
+.input input{
+    height: 40px;
+    width: 175px;
+    float: left;
+}
+.input img{
+    /* display: block; */
+    float: left;
+    height:40px ;
+    width: 90px;
+    /* margin-top: -45px;
+    margin-left: 264px; */
+    margin-top: 31px;
+    margin-left:5px;
+
+}
+.input{
+    height: 108px;
+    width: 100%;
+}
+.input span{
+    color: RGB(85,164,254);
+    font-size:14px ;
+    float: left;
+    margin-top: 45px;
+    margin-left: 5px;
+}
+input:focus {
+    border: 1px solid RGB(255,116,185);
+}
+.placeholder{
+    padding-left:10px ;
+    font-size:14px ;
+    color: RGB(181,181,181);
+}
+.password i,a,span{
+    float: left;
+}
+.password{
+    height: 40px;
+    width: 100%;
+}
+.password i{
+    height: 21px;
+    width: 21px;
+    background-color: RGB(255,116,185);
+    color: #fff;
+    border-radius: 4px;
+    /* text-align: center; */
+    margin-left: 80px;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.password a{
+ color: RGB(31,45,61);
+ font-size:14px ;
+ margin-left: 5px;
+}
+.password span{
+    color: RGB(46,144,254);
+    margin-left: 153px;
+}
+button{
+    width: 332px;
+    height: 40px;
+    background-color: RGB(255,255,255);
+    border: 2px solid RGB(255,116,185);
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.button-one{
+   color: #fff;
+    background-color: RGB(255,116,185);
+}
+.button-two{
+color:RGB(255,116,185) ;
+}
