@@ -148,7 +148,10 @@
 /* 2.html */
 .know img{
    width: 100%;
-   height: 596px;
+   height: 890px;
+}
+.know{
+    position: relative;
 }
 .women img{
     height: 180px;
@@ -168,7 +171,7 @@ h2{
 }
 .register{
     position: absolute;
-    top: 123px;
+    top: 115px;
     left: 1125px;
     height: 520px;
     width: 500px;
@@ -187,10 +190,10 @@ h2{
 input{
     height: 40px;
     width: 330px;
-    border:2px solid RGB(221,221,221);
-    margin-top: 30px;
+    border: 1px solid RGB(221,221,221);
+    margin-top: 15px;
     border-radius: 8px;
-    margin-left:80px;
+    margin-left: 80px;
 }
 .input input{
     height: 40px;
@@ -262,13 +265,164 @@ button{
     border: 2px solid RGB(255,116,185);
     border-radius: 8px;
     margin-left: 80px;
-    margin-top: 16px;
     font-size: 20px;
 }
 .button-one{
    color: #fff;
     background-color: RGB(255,116,185);
+   
+}
+.button-one:hover,.button-two:hover{
+    opacity: 0.8;
 }
 .button-two{
 color:RGB(255,116,185) ;
+margin-top: 16px;
+}
+.iconfont a{
+    color: RGB(50,50,50);
+    margin-top: 35px;
+}
+.use{
+color:RGB(50,50,50) ;
+font-size: 14px;
+margin-left: 80px;
+
+}
+.icon-icon,
+.icon-weibo,
+.icon-weixin{
+    font-size:30px ;
+    margin-top: 10px;
+}
+.icon-icon{
+    color:RGB(18,184,245) ;
+    margin-left: 25px;
+}
+.icon-weixin{
+    color: RGB(126,211,33);
+    
+}
+.icon-weibo{
+    color: RGB(245,100,103);
+    margin-left: 25px;
+}
+.content{
+    height: 30px;
+    width: 150px;
+    float: left;
+    margin-left:30px;
+    margin-top: -8px;
+}
+.platform{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(253, 244, 250);
+}
+.platform-one{
+display: block;
+  height: 170px;
+  width: 170px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  float: left;
+  margin: 115px;
+  box-shadow: 0 2px 26px rgba(255,116,185,.15);
+  
+}
+.platform-one img{
+    height: 95px;
+    width: 110px;
+    margin-top: 33px;
+    margin-left: 26px;
+}
+.platform-bottom{
+    margin-top:67px;
+    width: 350px;
+    text-align: center;
+    margin-left: -90px;
+
+    line-height: 28px;
+}
+.name{
+    font-size:26px;
+    color: rgb(58, 57, 57);
+    line-height:35px ;
+}
+.platform-bottom:last-child{
+    font-size: 16px;
+    color: rgb(197, 194, 194);
+}
+.photo{
+    width: 100%;
+    height: 1000px;
+
+}
+.join{
+    margin-top: 200px;
+    text-align: center;
+
+}
+.join h1{
+    font-size: 50px;
+    color: RGB(255,116,185);
+    font-weight: 400;
+}
+.join h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.head-portrait{
+    margin-top: 30px;
+}
+.protrait-box{
+    height: 84px;
+    width: 84px;
+    float: left;
+    margin: 25px 25px;
+}
+.head-portrait img{
+    height: 79px;
+    width: 79px;
+    border: 2px solid RGB(255,116,185);
+    border-radius: 50%;
+    margin-top:35px;
+    float: left;
+
+}
+.head-portrait img:hover{
+    height: 82px;
+    width: 82px;
+}
+.protrait-box img{
+float: left;
+
+}
+/*  3.html */
+.big-img img{
+    /* height:420px ; */
+    width: 100%;
+}
+
+.situation{
+    position: absolute;
+    top: 291px;
+    left: 333px;
+    margin-top: 0px;
+    height: 2113px;
+    width: 1202px;
+    background-color:RGB(255,255,255) ;
+
+}
+.gongsi{
+    background-color:rgb(236, 233, 233);
+    width: 100%;
+    height: 2087px;
+} 
+.big-img{
+    width: 100%;
+    background-color: RGB(255,112,140);
+    height: 460px;
 }
