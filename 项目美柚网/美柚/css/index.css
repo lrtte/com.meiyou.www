@@ -1,6 +1,9 @@
 .topnav{
-    width: 100%;
+
     height:92px ;
+    width: 1210px;
+    /* margin: 0; */
+    margin: 0 auto;
 }
 .topnav-left{
     float: left;
@@ -20,6 +23,23 @@
     margin-left: 11px;
     float: left;
 }
+/* .topnav-left a:nth-child(3):hover{
+   height: 300px;
+   width: 100px;
+   background-color: #fff;
+} */
+/* .topnav-last-right a{
+    font-size:20px ;
+    color:RGB(255,215,224);
+    line-height: 90px;
+    margin-left: 60px;
+    height: 62px;
+    width: -22px;
+}
+.topnav-last-right a:hover{
+    color:#fff;
+    border-bottom: 2px solid #fff;
+} */
 .topnav-right{
     float: right;
     width: 748px;
@@ -31,16 +51,23 @@
 .topnav-right a{
     color: RGB(50,50,50);
     margin: 0 13px;
+    height: 62px;
+    width: -22px;
 }
 
 .topnav-right a:hover{
     color: RGB(255,147,164);
+    border-bottom: 2px solid RGB(255,147,164);
 }
 .good{
     background-color: RGB(238,238,238);
 }
 .beauty{
     height: 48px;
+    width: 1210px;
+    /* margin: 0; */
+    margin: 0 auto;
+    margin-top: -4px;
 }
 .beauty img{
     height: 22px;
@@ -56,7 +83,12 @@
 .more{
     background-color: RGB(238,238,238);
     height: 438px;
-    width: 100%;
+    /* width: 100%; */
+    width: 1210px;
+    /* margin: 0; */
+    margin: 0 auto;
+    margin-top: -13px;
+    background-color: RGB(238,238,238);
 }
 .more-one,.more-two,.more-three{
     float: left;
@@ -329,7 +361,8 @@ display: block;
   float: left;
   margin: 115px;
   box-shadow: 0 2px 26px rgba(255,116,185,.15);
-  
+  /* transition: 2s; */
+  /* min-width: 350px; */
 }
 .platform-one img{
     height: 95px;
@@ -465,6 +498,8 @@ float: left;
     line-height: 28px;
     font-size: 14px;
     color: RGB(136,136,136);
+    width: 1210px;
+    margin: 0 auto;
 }
 .video1{
     background-color: RGB(255,228,233);
@@ -697,6 +732,7 @@ background-color: #fff;
     height: 40px;
     width: 312px;
     border: none;
+
     /* border-bottom:1px solid RGB(221,221,221); */
 }
 .user a{
@@ -787,5 +823,109 @@ margin-top: 20px;
     width:52px ;
     background-color: RGB(255,117,185);
     margin-top: 25px;
+}
+.we{
+    position: relative;
+    height: 418px;
+    width: 100%;
+    background-color: RGB(255,112,140);
+}
+.small-img img{
+    height: 96px;
+    width: 96px;
+    float: left;
+}
+.all-box{
+    height: 130px;
+    width: 1060px;
+    margin-left: 75px;
+    margin-top: 43px;
+}
+.contact-we{
+    height:1785px;
+    width: 1004px;
+    margin-top: -126px;
+}
 
+.cooperation{
+    /* display: block; */
+    height:130px ;
+    width: 272px;
+    float: left;
+    margin-left: 48px;
+    margin-top: -10px;
+}
+.cooperation a{
+    display: contents;
+    font-size:20px ;
+    color: RGB(50,50,50);
+}
+.cooperation p{
+   line-height: 30px;
+    font-size:16px ;
+    color: RGB(136,136,136);
+}
+.cooperation dd{
+    line-height: 30px;
+    font-size:16px ;
+    color: RGB(151,136,136);
+    margin-top: 20px;
+}
+/* .all:nth-last-child(2){
+    margin-top:0px;
+} */
+.solid{
+    height: 1px;
+    width: 1130px;
+    background-color: RGB(204,204,204);
+    margin-left: 30px;
+}
+
+/* 加入我们 */
+.topnav-last{
+    height: 90px;
+    width:100%;
+
+}
+.topnav-last{
+    background-image: url(../img/back.png);
+    height:1000px ;
+    width: 1903px;
+}
+.topnav-last-left a{
+    float: left;
+    color:#fff ;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left:10px;
+}
+.topnav-last-left img{
+    float: left;
+    height: 44px;
+    width: 44px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.topnav-last-right{
+    float: right;
+}
+.topnav-last-right a{
+    font-size:20px ;
+    color:RGB(255,215,224);
+    line-height: 90px;
+    margin-left: 60px;
+    height: 62px;
+    width: -22px;
+}
+.topnav-last-right a:hover{
+    color:#fff;
+    border-bottom: 2px solid #fff;
+}
+.join-box{
+    height: 507px;
+    width: 493px;
+    background-image: url(../img/flou.png);
+    float: left;
+    margin-left: 150px;
+    margin-top: 36px;
 }
