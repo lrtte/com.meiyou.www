@@ -922,10 +922,67 @@ margin-top: 20px;
     border-bottom: 2px solid #fff;
 }
 .join-box{
+    position: relative;
     height: 507px;
     width: 493px;
     background-image: url(../img/flou.png);
     float: left;
-    margin-left: 150px;
-    margin-top: 36px;
+    margin-left: 138px;
+    margin-top: 165px;
+}
+.join-box img{
+  position: absolute;
+  left: 67px;
+  top: 146px;
+}
+.zhaopin{
+    position: absolute;
+    left: 69px;
+    top: 25px;
+    height:50px ;
+    width:365px ;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-top: 244px;
+}
+.zhaopin input{
+    height:40px ;
+    width:280px ;
+    border: none;
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 18px;
+    color: RGB(181,181,181);
+}
+.zhaopin i{
+color:RGB(255,211,220) ;
+font-size: 32px;
+
+}
+.zhaopin button {
+    height: 30px;
+    width: 30px; 
+    margin-top: 0px;
+    margin-left: 9px;
+    border: none;
+}
+.zhaopin img{
+position: absolute;
+left: 321px;
+    top: 12px;
+}
+.bottom-nav{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.bottom-nav p{
+text-align: center;
+    font-size:14px ;
+    color: #888;
+    
+    line-height:30px ;
+}
+.bottom-nav p:hover{
+color:RGB(255,82,170) ;
 }
