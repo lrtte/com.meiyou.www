@@ -290,7 +290,7 @@ input:focus {
     color: RGB(46,144,254);
     margin-left: 153px;
 }
-button{
+.button-two,.button-one{
     width: 332px;
     height: 40px;
     background-color: RGB(255,255,255);
@@ -926,9 +926,12 @@ margin-top: 20px;
     height: 507px;
     width: 493px;
     background-image: url(../img/flou.png);
-    float: left;
+    position: absolute;
+    top: 235px;
+    left: 567px;
+    /* float: left; */
     margin-left: 138px;
-    margin-top: 165px;
+    margin-top: 0px;
 }
 .join-box img{
   position: absolute;
@@ -965,6 +968,7 @@ font-size: 32px;
     margin-top: 0px;
     margin-left: 9px;
     border: none;
+    background-color: #fff;
 }
 .zhaopin img{
 position: absolute;
@@ -985,4 +989,64 @@ text-align: center;
 }
 .bottom-nav p:hover{
 color:RGB(255,82,170) ;
+}
+.topnav-last-box{
+    background-image: url(../img/dd.png);
+    height:337px ;
+    width: 100%;
+}
+.empty{
+    height:92px ;
+    width: 100%;
+}
+.search-box{
+    height: 818px;
+    width:100% ;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.search-box-top{
+    height: 90px;
+    width: 100%;
+
+}
+.search-box-top i,span{
+    float: left;
+    color:RGB(255,80,115);
+    font-size:20px ;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+.search-box-top i{
+    margin-left: 90px;
+
+}
+.search-center{
+    height: 42px;
+    width: 402px;
+    border: 1px solid RGB(255,80,115);
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.search-center input{
+    float: left;
+    height: 35px;
+    width: 300px;
+    border:none;
+    margin: 0px auto;
+    font-size:16px ;
+    color: RGB(188,181,198);
+}
+.search-center button{
+    height: 43px;
+    width: 63px;
+    margin: 0px auto;
+    background-color:RGB(255,80,115);
+    float: right;
+    border: none;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.small {
+    color: #fff;
 }
