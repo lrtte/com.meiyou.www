@@ -288,6 +288,7 @@ input:focus {
 .password span{
     color: RGB(46,144,254);
     margin-left: 153px;
+    margin-top: -2px;
 }
 .button-two,.button-one{
     width: 332px;
